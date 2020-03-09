@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/article.css" />
+    <script src="/webjars/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>blog-文章</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="logo">blog</div>
+            <div class="btns">
+                <a href="/page/main.html">发现</a>
+                <a href="/page/focusarticles.html">关注</a>
+                <a href="#">消息</a>
+            </div>
+            <div class="search">
+                <input type="text" class="search-text">
+                <a href="#" onclick="searchmore()" class="get">搜索</a>
+            </div>
+            <div class="user">
+                <img src="#" id="userimage">
+                <div class="dec"></div>
+                <div class="user-nav">
+                    <ul>
+                        <li><a href="javascript:void(0)" onclick="uhp()">个人主页</a></li>
+                        <li><a href="/page/apprlist.html">点赞的文章</a></li>
+                        <li><a href="/page/login.html">切换账号</a></li>
+                        <li><a href="/page/drafts.html">草稿箱</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="write">
+                <a href="/page/wangeditor.html" class="write-link">写文章</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="article">
+                <div class="article-top"></div>
+                <div class="article-bottom"></div>
+            </div>
+            <div class="more" id="rdm">
+                <div class="tip">推荐阅读</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/article.js"></script>
+</body>

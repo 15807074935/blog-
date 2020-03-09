@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/reward.css" />
+    <script src="/webjars/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>blog-打赏</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="logo"><span> blog</span></div>
+        <div class="content">
+            <div class="reward_money">
+                <div class="money_top">
+                    <div class="m1" onclick="rm(1,1)">1</div>
+                    <div class="m2" onclick="rm(2,2)">2</div>
+                    <div class="m3" onclick="rm(3,5)">5</div>
+                    <div class="m4" onclick="rm(4,10)">10</div>
+                </div>
+                <div class="money_btm">
+                    <div class="m5" onclick="rm(5,20)">20</div>
+                    <div class="m6" onclick="rm(6,50)">50</div>
+                    <div class="m7" onclick="rm(7,100)">100</div>
+                    <div class="m8" onclick="rm(8,200)">200</div>
+                </div>
+            </div>
+            <div class="payment_type">
+                <span class="zf_tip">支付方式</span>
+                <img src="http://116.62.172.100:80/zfb.png">
+                <span class="zf_name">支付宝</span>
+            </div>
+            <div class="payment_div">
+                <img src="#" class="payment_img" alt="">
+                <span class="pmoney">支付￥1</span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/reward.js"></script>
+</body>
+
+</html>

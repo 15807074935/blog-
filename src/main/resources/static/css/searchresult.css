@@ -1,0 +1,358 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* 主界面 */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+
+.wrapper {
+    min-width: 1440px;
+    height: 100%;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper .nav {
+    height: 55px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-color: #f0f0f0;
+    position: static;
+}
+
+.wrapper .nav .logo {
+    line-height: 55px;
+    width: 45px;
+    color: #ea6f5a;
+    float: left;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.wrapper .nav .btns {
+    line-height: 55px;
+    float: left;
+    margin-left: 200px;
+}
+
+.wrapper .nav .btns a {
+    color: #333;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.wrapper .nav .search {
+    margin-left: 100px;
+    line-height: 55px;
+    float: left;
+}
+
+.wrapper .nav .search .search-text {
+    width: 300px;
+    height: 28px;
+    border: 1px solid #b6b6b6;
+    /* border-radius: 10px; */
+    outline: 0;
+    float: left;
+    margin-top: 15px;
+    /* letter-spacing: 2px; */
+    padding-left: 10px;
+    color: #666;
+}
+
+.wrapper .nav .user {
+    margin-left: 200px;
+    float: left;
+    padding: 0 2px;
+    cursor: pointer;
+}
+
+.wrapper .nav .user img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    float: left;
+}
+
+.wrapper .nav .user .dec {
+    width: 0;
+    height: 0;
+    border: 7px solid;
+    border-color: #666 transparent transparent transparent;
+    float: left;
+    margin-top: 28px;
+    margin-left: 5px;
+}
+
+.wrapper .nav .user-nav>ul>li {
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgba(216, 214, 214, 0.918);
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.wrapper .nav .user-nav>ul>li>a {
+    color: #333;
+    font-size: 14px;
+}
+
+.wrapper .nav .user-nav {
+    width: 85px;
+    height: 70px;
+    position: absolute;
+    right: 278px;
+    margin-top: 50px;
+    display: none;
+}
+
+.wrapper .nav .search .get {
+    color: #333;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    background-color: #e7e7e7;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.wrapper .nav .write {
+    float: left;
+    margin-left: 80px;
+    width: 100px;
+    height: 55px;
+}
+
+.wrapper .nav .write .write-link {
+    display: block;
+    color: #333;
+    margin-top: 13px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ea6f5a;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.wrapper .content {
+    height: 900px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.wrapper .content .users-tips {
+    background-color: hsla(0, 0%, 71%, .1);
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    width: 900px;
+    height: 110px;
+    margin-bottom: 30px;
+}
+
+.wrapper .content .users-tips .search-users .tipall {
+    width: 900px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.wrapper .content .users-tips .search-users .tipall .users-tip {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.wrapper .content .users-tips .search-users .tipall .users-all {
+    display: block;
+    float: right;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: #3194d0;
+    cursor: pointer;
+}
+
+.wrapper .content .users-tips .search-users .part-user {
+    width: 900px;
+    height: 72px;
+    margin-top: 10px;
+}
+
+.wrapper .content .users-tips .search-users .part-user .usero {
+    width: 170px;
+    height: 62px;
+    float: left;
+}
+
+.wrapper .content .users-tips .search-users .part-user .usero .user-img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+.wrapper .content .users-tips .search-users .part-user .usero .usero-info {
+    width: 91px;
+    height: 48px;
+    float: left;
+    margin-left: 10px;
+}
+
+.wrapper .content .users-tips .search-users .part-user .usero .usero-info .user-name {
+    width: 91px;
+    height: 21px;
+    line-height: 21px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.wrapper .content .users-tips .search-users .part-user .usero .usero-info .article-title {
+    width: 91px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 12px;
+    color: #969696;
+}
+
+.wrapper .content .search-articles .articles-tip {
+    height: 27px;
+    width: 900px;
+    line-height: 27px;
+}
+
+.wrapper .content .search-articles .articles-tip {
+    height: 27px;
+    width: 900px;
+    line-height: 27px;
+    font-size: 13px;
+}
+
+.wrapper .content .search-articles .articles-tip>span {
+    margin-left: 10px;
+}
+
+.wrapper .content .search-articles .articles-tip .article-hot {
+    height: 27px;
+    width: 900px;
+    line-height: 27px;
+}
+
+.wrapper .content .search-articles .articles-tip .article-new {
+    color: #969696;
+}
+
+.wrapper .content .search-articles .articles-tip .article-sum {
+    color: #969696;
+}
+
+.wrapper .content .search-articles .content-left {
+    float: left;
+    width: 600px;
+    height: 160px;
+}
+
+.wrapper .content .search-articles .content-left .content-left-left {
+    width: 400px;
+    float: left;
+}
+
+.wrapper .content .search-articles .content-left .content-left-left .title {
+    font-size: 18px;
+    font-weight: 700;
+    height: 52px;
+}
+
+.wrapper .content .search-articles .content-left .content-left-left .title .title-a {
+    color: #333;
+    display: block;
+    line-height: 52px;
+}
+
+.wrapper .content .search-articles .content-left .content-left-left .content {
+    font-size: 14px;
+    height: 70px;
+    margin-top: 0px;
+    color: #999;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+
+.wrapper .content .search-articles .content-left .content-left-left .more {
+    height: 20px;
+    /* background-color: aqua; */
+}
+
+.wrapper .content .search-articles .content-left .content-left-left .more .view {
+    float: left;
+    color: #ea6f5a;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.wrapper .content .search-articles .content-left .content-left-left .more .author {
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+
+.wrapper .content .search-articles .content-left .content-left-left .more .author .author-a {
+    color: #999;
+}
+
+.wrapper .content .search-articles .content-left .content-left-left .more .comment {
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+
+.wrapper .content .search-articles .content-left .content-left-left .more .like {
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+
+.wrapper .content .search-articles .content-left .content-left-right {
+    float: left;
+    width: 150px;
+    height: 160px;
+    margin-left: 30px;
+}
+
+.wrapper .content .search-articles .content-left .content-left-right .content-left-right-img {
+    width: 150px;
+    height: 100px;
+    margin-top: 30px;
+}

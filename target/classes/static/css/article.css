@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* 主界面 */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+
+.wrapper {
+    min-width: 1440px;
+    height: 100%;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+}
+
+.wrapper .nav {
+    height: 55px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-color: #f0f0f0;
+    padding-bottom: 18px;
+}
+
+.wrapper .nav .logo {
+    line-height: 55px;
+    width: 45px;
+    color: #ea6f5a;
+    float: left;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.wrapper .nav .btns {
+    line-height: 55px;
+    float: left;
+    margin-left: 200px;
+}
+
+.wrapper .nav .btns a {
+    color: #333;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.wrapper .nav .search {
+    margin-left: 100px;
+    line-height: 55px;
+    float: left;
+}
+
+.wrapper .nav .search .search-text {
+    width: 300px;
+    height: 28px;
+    border: 1px solid #b6b6b6;
+    /* border-radius: 10px; */
+    outline: 0;
+    float: left;
+    margin-top: 15px;
+    /* letter-spacing: 2px; */
+    padding-left: 10px;
+    color: #666;
+}
+
+.wrapper .nav .user {
+    margin-left: 200px;
+    float: left;
+    padding: 0 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.wrapper .nav .user img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    float: left;
+}
+
+.wrapper .nav .user .dec {
+    width: 0;
+    height: 0;
+    border: 7px solid;
+    border-color: #666 transparent transparent transparent;
+    float: left;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.wrapper .nav .user-nav>ul>li {
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgba(216, 214, 214, 0.918);
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.wrapper .nav .user-nav>ul>li>a {
+    color: #333;
+    font-size: 14px;
+}
+
+.wrapper .nav .user-nav {
+    width: 85px;
+    height: 70px;
+    position: absolute;
+    right: -10px;
+    margin-top: 50px;
+    display: none;
+}
+.wrapper .nav .search .get {
+    color: #333;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    background-color: #e7e7e7;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.wrapper .nav .write {
+    float: left;
+    margin-left: 80px;
+    width: 100px;
+    height: 55px;
+}
+
+.wrapper .nav .write .write-link {
+    display: block;
+    color: #333;
+    margin-top: 13px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ea6f5a;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.wrapper .content {
+    padding-top: 50px;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.wrapper .content .article {
+    float: left;
+    width: 750px;
+    clear: both;
+}
+
+.wrapper .content .more {
+    float: left;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+.wrapper .content .more .title {
+    margin-top: 8px;
+    width: 240px;
+    height: 63px;
+}
+.wrapper .content .more .title .describe {
+    margin-top: 8px;
+    width: 240px;
+    height: 42px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.wrapper .content .more .title .describe .art_link {
+    font-size: 13px;
+    color: #333;
+}
+
+.wrapper .content .more .title .watch {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #969696;
+}
+.wrapper .content .article .article-top .title {
+    font-size: 30px;
+    font-weight: 700;
+}
+.wrapper .content .article .article-top .note {
+    padding-top: 20px;
+    width: 600px;
+    height: 40px;
+}
+.wrapper .content .article .article-top .note .user_img {
+    float: left;
+}
+.wrapper .content .article .article-top .note .user_img .img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    float: left;
+}
+.wrapper .content .article .article-top .note .info {
+    float: left;
+}
+.wrapper .content .article .article-top .note .info .user_info {
+    width: 100%;
+    height: 100%;
+}
+.wrapper .content .article .article-top .note .info .user_info .user_name {
+    margin-left: 8px;
+    color: #404040;
+    font-weight: 500;
+    font-size: 16px;
+}
+.wrapper .content .article .article-top .note .info .user_info .add {
+    background-color: #42c02e;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 0 3px;
+    margin-left: 5px;
+}
+.wrapper .content .article .article-top .note .info .article_info {
+    margin-left: 8px;
+    color: #999;
+    font-size: 12px;
+}
+.wrapper .content .article .article-top .note .info .article_info .article_words {
+    margin: 0 5px;
+}
+.wrapper .content .article .note .ac {
+    float: right;
+    width: 56px;
+    height: 40px;
+    line-height: 40px;
+    display: none;
+}
+.wrapper .content .article .note .ac>a {
+    color: #999;
+    font-size: 13px;
+}
+.wrapper .content .article .article-top .main {
+    margin-top: 20px;
+    color: #404040;
+    font-size: 16px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.wrapper .content .article .article-top .btn {
+    margin-top: 10px;
+}
+.wrapper .content .article  .article-top .btn .top .right {
+    float: right;
+    margin-left: 400px;
+}
+.wrapper .content .article .article-top .btn .top .right .appr {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.wrapper .content .article .article-top .btn .top .right .style {
+    float: left;
+    font-size: 14px;
+    color: #969696;
+    line-height: 35px;
+    margin-left: 5px;
+}
+.wrapper .content .article .article-top .btn .top .right .style2 {
+    float: left;
+    font-size: 14px;
+    color: #969696;
+    line-height: 35px;
+}
+.wrapper .content .article .article-top .btn .top .left {
+    float: left;
+}
+.wrapper .content .article .article-top .btn .top .left .style3 {
+    float: left;
+    color: #969696;
+}
+.wrapper .content .article .article-top .btn .top .left {
+    float: left;
+    color: #969696;
+    font-size: 16px;
+    line-height: 35px;
+}
+.wrapper .content .article .article-top .btn .top .left .tip {
+    color: #969696;
+}
+.wrapper .content .article .article-top .btn .bottom {
+    width: 595px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    border-top: 1px solid rgb(230, 229, 229);
+    border-bottom: 1px solid rgb(230, 229, 229);
+}
+.wrapper .content .article .article-top .btn .bottom>span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-align: center;
+    margin-top: 70px;
+    color: #404040;
+}
+.wrapper .content .article .article-top .btn .bottom>a {
+    text-align: center;
+    display: block;
+    color: #fff;
+    background-color: #ec7259;
+    border-color: #ec7259;
+    font-size: 16px;
+    padding: 8px 16px;
+    width: 70px;
+    margin-left: 232px;
+    border-radius: 9%;
+}
+.wrapper .content .article .article-top .comment {
+    padding-bottom: 60px;
+}
+.wrapper .content .article .article-top .comment .up {
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(236, 235, 235, 0.98);
+    width: 595px;
+    height: 100px;
+    padding: 10px;
+    resize: none;
+}
+.wrapper .content .article .article-top .comment .up2 {
+    display: block;
+    color: #fff;
+    background: #ec7259;
+    font-size: 14px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10%;
+    margin-left: 546px;
+}
+.wrapper .content .article .article-bottom .allcomment {
+    padding-bottom: 200px;
+}
+.wrapper .content .article .article-bottom .allcomment .comment-user>img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+}
+.wrapper .content .article .article-bottom .allcomment .comment-user .user-info {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.wrapper .content .article .article-bottom .allcomment .comment-user .user-info .username {
+    font-size: 15px;
+    font-weight: 500;
+}
+.wrapper .content .article .article-bottom .allcomment .comment-user .user-info .time {
+    color: #999;
+    font-size: 12px;
+}
+.wrapper .content .article .article-bottom .allcomment .acomment {
+    float: left;
+    width: 680px;
+    height: 60px;
+    margin-left: 50px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}

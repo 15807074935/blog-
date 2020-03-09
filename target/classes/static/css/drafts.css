@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* 主界面 */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+
+.wrapper {
+    min-width: 1440px;
+    height: 100%;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper .nav {
+    height: 55px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-color: #f0f0f0;
+    position: static;
+}
+
+.wrapper .nav .logo {
+    line-height: 55px;
+    width: 45px;
+    color: #ea6f5a;
+    float: left;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.wrapper .nav .btns {
+    line-height: 55px;
+    float: left;
+    margin-left: 200px;
+}
+
+.wrapper .nav .btns a {
+    color: #333;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.wrapper .nav .search {
+    margin-left: 100px;
+    line-height: 55px;
+    float: left;
+}
+
+.wrapper .nav .search .search-text {
+    width: 300px;
+    height: 28px;
+    border: 1px solid #b6b6b6;
+    /* border-radius: 10px; */
+    outline: 0;
+    float: left;
+    margin-top: 15px;
+    /* letter-spacing: 2px; */
+    padding-left: 10px;
+    color: #666;
+}
+
+.wrapper .nav .user {
+    margin-left: 200px;
+    float: left;
+    padding: 0 2px;
+    cursor: pointer;
+}
+
+.wrapper .nav .user img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    float: left;
+}
+
+.wrapper .nav .user .dec {
+    width: 0;
+    height: 0;
+    border: 7px solid;
+    border-color: #666 transparent transparent transparent;
+    float: left;
+    margin-top: 28px;
+    margin-left: 5px;
+}
+
+.wrapper .nav .user-nav>ul>li {
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgba(216, 214, 214, 0.918);
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.wrapper .nav .user-nav>ul>li>a {
+    color: #333;
+    font-size: 14px;
+}
+
+.wrapper .nav .user-nav {
+    width: 85px;
+    height: 70px;
+    position: absolute;
+    right: 278px;
+    margin-top: 50px;
+    display: none;
+}
+
+.wrapper .nav .search .get {
+    color: #333;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    background-color: #e7e7e7;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.wrapper .nav .write {
+    float: left;
+    margin-left: 80px;
+    width: 100px;
+    height: 55px;
+}
+
+.wrapper .nav .write .write-link {
+    display: block;
+    color: #333;
+    margin-top: 13px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ea6f5a;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.wrapper .contents {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.wrapper>.contents>.title {
+    width: 600px;
+    height: 100px;
+    background-color: #7c7c7c;
+    border-radius: 5%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.wrapper .contents .articles {
+    width: 600px;
+    height: 160px;
+    margin-top: 20px;
+}
+
+.wrapper .contents .articles .content-left-left {
+    width: 400px;
+    float: left;
+}
+
+.wrapper .contents .articles .content-left-left .title {
+    font-size: 18px;
+    font-weight: 700;
+    height: 52px;
+}
+
+.wrapper .contents .articles .content-left-left .title .title-a {
+    color: #333;
+    display: block;
+    line-height: 52px;
+}
+
+.wrapper .contents .articles .content-left-left .content {
+    font-size: 14px;
+    height: 90px;
+    width: 400px;
+    margin-top: 0px;
+    color: #999;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+
+.wrapper .contents .articles .content-left-right {
+    float: left;
+    width: 150px;
+    height: 160px;
+    margin-left: 10px;
+}
+
+.wrapper .contents .articles .content-left-right .content-left-right-img {
+    width: 150px;
+    height: 100px;
+    margin-top: 30px;
+}
+#del {
+    margin-top: 70px;
+    float: left;
+    margin-left: 20px;
+    color: #999;
+    font-size: 18px;
+    cursor: pointer;
+}
